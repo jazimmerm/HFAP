@@ -29,3 +29,4 @@ public class click : MonoBehaviour
         Destroy(gameObject);
     }
 }
+
