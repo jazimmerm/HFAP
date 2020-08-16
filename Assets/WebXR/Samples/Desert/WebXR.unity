@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 82741410}
-  m_IndirectSpecularColor: {r: 0.3111004, g: 0.34539354, b: 0.28105128, a: 1}
+  m_IndirectSpecularColor: {r: 0.31109983, g: 0.3453928, b: 0.28105068, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -202,6 +202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kenya Frame
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 856365191234717131, guid: ece9002f34beefd4ca01065a63049de3,
         type: 3}
@@ -498,6 +503,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &182464390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: a82b8077db988a94a8b599eeafc83b48,
+    type: 3}
+  m_PrefabInstance: {fileID: 1657494978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &182464392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182464390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907904cb34f4e2b4798f2b541ced4ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pedestale: {fileID: 913719109}
+--- !u!65 &182464393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182464390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4412388, y: 0.8637667, z: 0.2840952}
+  m_Center: {x: 0.0013540834, y: -0.18171062, z: -0.0038464132}
 --- !u!1001 &238384394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1052,6 +1089,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 495007796}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &495007798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 447215130db7ea947999ad8606292deb,
+    type: 3}
+  m_PrefabInstance: {fileID: 495007796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &495007799
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495007798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.334613, y: 4.0830016, z: 0.9999999}
+  m_Center: {x: -0.08551425, y: 1.5415009, z: 0}
+--- !u!114 &495007800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495007798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907904cb34f4e2b4798f2b541ced4ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pedestale: {fileID: 910384847}
 --- !u!1 &570556908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,6 +1465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Botswana Frame
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 856365191234717131, guid: ece9002f34beefd4ca01065a63049de3,
         type: 3}
@@ -1757,6 +1831,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &910384847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1103363238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &913719109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+    type: 3}
+  m_PrefabInstance: {fileID: 738207040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &919741984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2361,6 +2447,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghana Frame
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 856365191234717131, guid: ece9002f34beefd4ca01065a63049de3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2516,7 +2607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0020187567
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2524,23 +2615,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.0982974
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.99999833
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.0018383625
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_RootOrder
@@ -2552,7 +2643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.789
       objectReference: {fileID: 0}
     - target: {fileID: 4545079059221816, guid: c61e4de741d37461e85f25866d1ebd31, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3098,6 +3189,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1657494978}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1699082322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 842c146718c49b44daa41c07161e0be1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1002212557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1699082323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699082322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.7026534, z: 1}
+  m_Center: {x: 0, y: 0.9417207, z: 0}
+--- !u!114 &1699082324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699082322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907904cb34f4e2b4798f2b541ced4ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pedestale: {fileID: 1975985403}
 --- !u!1001 &1736382262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3248,6 +3371,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e57e26a714804d3c9f1baa605131856, type: 3}
+--- !u!1 &1975985403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: ece9002f34beefd4ca01065a63049de3,
+    type: 3}
+  m_PrefabInstance: {fileID: 59933844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2005427645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,13 +4743,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5006512736348786480}
+  - component: {fileID: 8296172668179135780}
   m_Layer: 0
   m_Name: Botswana Pedastle
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8296172668179135780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668179135779}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907904cb34f4e2b4798f2b541ced4ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pedestale: {fileID: 913719109}
 --- !u!1 &8450759905930166451
 GameObject:
   m_ObjectHideFlags: 0
