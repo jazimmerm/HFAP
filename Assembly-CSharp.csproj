@@ -60,6 +60,7 @@
      <Compile Include="Assets\WebXR\Samples\Desert\Scripts\DesertFreeFlightController.cs" />
      <Compile Include="Assets\click.cs" />
      <Compile Include="Assets\clickactivate.cs" />
+     <Compile Include="Assets\gotourl.cs" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>C:/Users/ines/Documents/GitHub/HFAP/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
