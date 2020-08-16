@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\My Assets\Scripts\UI_Controller.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\WebXR\Samples\Desert\Scripts\DesertControllerInteraction.cs" />
     <Compile Include="Assets\WebXR\Samples\Desert\Scripts\DesertFreeFlightController.cs" />
